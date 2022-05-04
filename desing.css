@@ -1,0 +1,165 @@
+.body{
+    margin: 0px;
+    padding:0px
+}
+
+.header{
+    border-bottom: 2px solid #dc0101;    
+}
+
+.page{
+
+}     
+
+.footer{
+  
+}
+.column{
+    /* border: 1px solid black; */  
+    width: 1000px;
+    margin: 0px auto;
+}
+.page .column{
+    height: 100vh;
+}
+#logo-i-social{
+    display: flex;
+    
+}
+#logo-holder{
+    flex-grow: 1;
+    width: 100px;
+}
+#logo-holder img{
+    width: 48px;
+    height: 48px;
+}
+#soical-holder{
+    flex-grow: 1;
+    text-align: right;
+}
+#social-holder a{
+    text-decoration: none;
+}
+#social-holder a img{
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+#main-menu {
+   display: flex;
+}
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 300ms;
+}
+
+#main-menu a:hover, 
+#main-menu a.active{
+    background: #dc0101;
+    color: #ffffff;
+}
+#pocetna{
+   text-align: center;
+   color: #ffffff;
+   background: url(img/pozadinska.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+#pocetna h1{
+     font-size:  48pt;
+     margin-top: 0px;
+     padding-top: calc(50vh - 250px)
+
+}
+.dark-box{
+    background-color: #33333350;
+    border: 1px solid #ffffff;
+    font-size: 20pt;
+    padding: 40px;
+}
+#usluge{
+    background: url(img/usluge-pozadina.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ #karijera{
+    background: url(img/background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .align-center{
+     text-align: center;
+ }
+
+ .krugovi{
+     display: flex;
+     margin: 30px 0px;
+ }
+
+ .krug-holder{
+     flex-grow: 1;
+     text-align: center;
+ }
+
+ .krug{
+     background-color: #dc0101;
+     color: #ffffff;
+     font-size: 48px;
+     font-weight: bold;
+    /* width: 200px;
+     height: 200px;  */
+     display: inline-block;
+     padding: 25%;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
+
+ .oznaka{
+     font-size: 24px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ .tehnologije{
+     display:flex
+ }
+
+ .tehnologija{
+     flex-grow: 1;
+     text-align: center;
+    
+ }
+ .tehnologija img{
+     width: 48px;
+     height: 48px;
+ }
+ .tehnologija p{
+font-weight: bold; 
+
+ }
+.velicina{
+    font-size: 20px;
+}
+
+#usluge{
+    color: #fff;
+}
+#usluge h2{
+    padding: 40px;
+} 
+
+.service-row{
+    display: flex;
+}
+
+
+
